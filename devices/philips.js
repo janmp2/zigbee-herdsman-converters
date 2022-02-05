@@ -993,6 +993,15 @@ module.exports = [
         ota: ota.zigbeeOTA,
     },
     {
+        zigbeeModel: ['LWE007'],
+        model: '9290030211',
+        vendor: 'Philips',
+        description: 'Hue white E14',
+        meta: {turnsOffAtBrightness1: true},
+        extend: hueExtend.light_onoff_brightness(),
+        ota: ota.zigbeeOTA,
+    },
+    {
         zigbeeModel: ['LTW013'],
         model: '8718696598283',
         vendor: 'Philips',
